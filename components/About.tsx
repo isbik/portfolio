@@ -15,7 +15,7 @@ const About = (props: Props) => {
         <motion.h1
           initial="hidden"
           animate="visible"
-          className="flex mb-2 text-6xl font-bold"
+          className="flex mb-2 text-4xl font-bold sm:text-6xl"
         >
           <>
             {"Dmitry Bikishov.".split("").map((letter, index) => (
